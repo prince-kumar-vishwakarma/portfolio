@@ -793,8 +793,9 @@ footer{
 #msg{
     color: var(--textColor);
     font-size: 1.5rem;
-    width: fit-content;
-    margin: 0 50%;
+    min-width: max-content;
+    margin-top: 10px;
+    text-align: center;
 }
 /* ---------------Media---------------- */
 
