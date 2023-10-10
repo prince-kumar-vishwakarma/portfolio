@@ -8,6 +8,7 @@
 *, ::after ::before{
     box-sizing: inherit;
 }
+
 :root{
     --mainColor: #001C22;
     --textColor: #5EF2D1;
@@ -40,6 +41,11 @@ html, body{
 }
 ::-webkit-scrollbar-track {
     background: var(--mainColor);
+}
+
+*::selection{
+    background-color: #005669;
+    color: #FFFFFF;
 }
 
 #cursor{
