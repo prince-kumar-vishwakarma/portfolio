@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "montserrat"; */
   font-family: studiofeixen-variable,studiofeixen,Arial,Helvetica,sans-serif;
   color: white;
 }
@@ -23,7 +22,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 0.2rem;
+  scroll-padding-top: 2px;
 }
 
 html,
