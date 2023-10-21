@@ -636,6 +636,7 @@ main {
   -webkit-box-align: center;
   line-height: 1.2rem;
   min-height: 100vh;
+  padding-bottom: 0px;
 }
 
 #contact h2 {
