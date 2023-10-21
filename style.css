@@ -492,7 +492,7 @@ main{
 .skills-list{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(14rem, 20rem));
     gap: 0px 1rem;
 }
 
