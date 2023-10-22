@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -391,13 +394,16 @@ main {
   font-family: var(--font-sans);
 }
 
-#home h2 {
+#home h2 span{
   font-size: 4.75rem;
   cursor: help;
   display: inline-block;
-  font-weight: 500;
   -webkit-text-stroke: 0;
   color: var(--textBgColor);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.25rem;
+  line-height: 5rem;
+  font-weight: 700;
 }
 
 #home h3 {
@@ -449,6 +455,7 @@ main {
   color: var(--textBgColor);
   position: relative;
   margin-bottom: 5rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 #about h2::before {
@@ -552,6 +559,7 @@ main {
   white-space: nowrap;
   width: 100%;
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 #project h2::before {
   content: "03. ";
@@ -647,6 +655,7 @@ main {
   white-space: nowrap;
   width: 100%;
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 #contact h2::before {
   content: "04. ";
@@ -679,7 +688,6 @@ main {
   border-radius: 10px;
 }
 
-
 #left-contact h3 {
   font-size: 2.75rem;
   color: var(--textBgColor);
@@ -696,6 +704,7 @@ main {
   padding: 1.7rem 2rem;
   color: var(--textColor);
   border: 1px solid var(--textColor);
+  outline: none;
   border-radius: 5px;
   background-color: transparent;
   margin-top: 5rem;
@@ -709,6 +718,7 @@ main {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   box-shadow: 0.5rem 0.5rem 0 var(--textColor);
   transform: translate(-0.5rem, -0.5rem);
+  -webkit-transform: translate(-0.5rem, -0.5rem);
 }
 
 #right-contact {
@@ -738,6 +748,7 @@ form button {
   color: var(--textColor);
   border: 1px solid var(--textColor);
   border-radius: 6px;
+  outline: none;
   background-color: transparent;
   margin-top: 1rem;
   font-size: 2rem;
@@ -749,6 +760,7 @@ form button {
 form button:hover {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   box-shadow: 0.5rem 0.5rem 0 var(--textColor);
+  transform: translate(-0.5rem, -0.5rem);
   -webkit-transform: translate(-0.5rem, -0.5rem);
 }
 
