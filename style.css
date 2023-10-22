@@ -623,6 +623,7 @@ main {
   margin-bottom: 1.8rem;
 }
 .projectCard p {
+  line-height: 2.5rem;
   font-size: 1.9rem;
   color: #8892af;
 }
@@ -643,7 +644,6 @@ main {
   -webkit-box-pack: center;
   -webkit-box-align: center;
   line-height: 1.2rem;
-  min-height: 100vh;
   padding-bottom: 0px;
 }
 
@@ -796,7 +796,7 @@ footer {
   transition: 300ms ease-in-out;
 }
 .built {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 2rem 0;
   font-family: monospace;
   color: #8892af;
@@ -818,6 +818,10 @@ footer {
   }
   #cursor {
     display: none;
+  }
+  .main-section {
+    width: 100%;
+    padding: 9rem 0px;
   }
   nav .rightnav {
     display: none;
@@ -842,17 +846,32 @@ footer {
   }
   #home p {
     width: 100%;
+    font-size: 2.4rem;
   }
-  .main-section {
-    min-height: 100vh;
-    width: 100%;
-    padding: 9rem 0px;
-  }
+
   .mainAbout {
     display: block;
   }
   .rightAbout {
     margin: 50px auto 0px;
+  }
+
+  .leftAbout p{
+    font-size: 2.3rem;
+  }
+
+  .leftAbout h3{
+    font-size: 2rem;
+  }
+  .skills-list li{
+    font-size: 2rem;
+  }
+  .skills-list li::before{
+    font-size: 1.5rem;
+  }
+  .projectCard p{
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
   .socialmedia {
     display: flex;
@@ -864,12 +883,15 @@ footer {
     align-content: center;
     text-align: center;
   }
+  #left-contact p {
+    font-size: 2.3rem;
+  }
 }
 
 @media (max-width: 550px) {
   html,
   body {
-    font-size: 50%;
+    font-size: 52%;
   }
   #home h2 {
     font-size: 4rem;
