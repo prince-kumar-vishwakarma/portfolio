@@ -28,7 +28,7 @@ function curser() {
   });
   document.addEventListener('click', () => {
     gsap.fromTo(cursor, {
-      transform: `translate(-50%,-50%) scale(.5)`,
+      transform: `translate(-50%,-50%) scale(.5)`
     }, { transform: `translate(-50%,-50%) scale(1)` });
   })
 }
