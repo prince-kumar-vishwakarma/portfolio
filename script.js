@@ -193,7 +193,7 @@ projectCard.forEach(function (emum) {
   });
   emum.addEventListener("mouseleave", function () {
     gsap.to(emum, {
-      y: 8,
+      y: 0,
       duration: 0,
     });
   });
