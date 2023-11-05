@@ -742,6 +742,7 @@ form textarea {
   margin: 1rem 0;
   border: 0;
   font-size: 1.5rem;
+  resize: none;
 }
 form button {
   padding: 1rem 2rem;
